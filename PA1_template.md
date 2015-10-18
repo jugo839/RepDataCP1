@@ -231,9 +231,12 @@ print(valuesMeanMedian2)
 ##   mean median 
 ##  10750  10641
 ```
+#### Make a histogram of the total number of steps taken each day and Calculate and report the mean and median total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?
+
+They show differences in the median and in the histograms. Based on the method used for filling in missing values, we can get different mean and median values. The histogram can also be different based on the strategy we used to fill in the missing values, but not much, as with the row data mean = 9354 median = 10395 and with the filled-in missing values mean=10750 median=10641
 
 ## Weekdays and weekends
-### Creation a new factor variable in the dataset with two levels вЂ“ вЂњweekdayвЂќ and вЂњweekendвЂќ indicating whether a given date is a weekday or weekend day
+### Creation a new factor variable in the dataset with two levels - 'weekday' and 'weekend' indicating whether a given date is a weekday or weekend day
 
 ```r
 echo = TRUE
