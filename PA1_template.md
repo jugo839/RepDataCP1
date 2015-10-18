@@ -40,7 +40,7 @@ Convert type of 'date' variable
 echo = TRUE
 str(data)
 ```
-
+ 
 ```
 ## 'data.frame':	17568 obs. of  3 variables:
 ##  $ steps   : int  NA NA NA NA NA NA NA NA NA NA ...
