@@ -13,7 +13,7 @@ Set Directory
 
 ```r
 echo = TRUE
-setwd("D:/Courses/Data Science Specialization/05. Reproducible Research/Week2/CP")
+setwd(".")
 ```
 
 Download Data
